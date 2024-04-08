@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 
 function App() {
-  const [dictionary, setDictionary] = useState([
+  const [dictionary] = useState([
     {
       word: "React",
       meaning: "A JavaScript library for building user interfaces.",
